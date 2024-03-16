@@ -1,5 +1,7 @@
-<script setup lang="ts">
-
+<script setup>
+useHeadSafe({
+  title: 'Home',
+})
 </script>
 
 <template>

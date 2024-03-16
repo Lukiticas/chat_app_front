@@ -1,15 +1,12 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
-    <h1>header</h1>
-    <slot/>
-    <footer>footer</footer>
+    <BaseHeader />
+    <main class="w-full h-full">
+      <slot />
+    </main>
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -1,9 +1,13 @@
 <script setup lang="ts">
+const data = ref({
+  username: '',
+  password: ''
+})
 
 </script>
 
 <template>
-  $END$
+
 </template>
 
 <style scoped>
