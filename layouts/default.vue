@@ -1,12 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    <BaseHeader />
-    <main class="w-full h-full">
-      <slot />
-    </main>
-  </div>
+  <main class="w-full h-full">
+    <slot />
+  </main>
 </template>
 
 <style scoped></style>

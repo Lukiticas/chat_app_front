@@ -1,7 +1,8 @@
 //@ts-ignore
 export default defineNuxtConfig({
     devtools: { enabled: true },
-    modules: ["@nuxtjs/tailwindcss", "shadcn-nuxt", "nuxt-icon", "@sidebase/nuxt-auth"],
+    ssr: false,
+    modules: ["@nuxtjs/tailwindcss", "shadcn-nuxt", "nuxt-icon", "@sidebase/nuxt-auth", "dayjs-nuxt"],
     auth: {
         baseURL: process.env.BASE_URL,
         globalAppMiddleware: true,
@@ -15,6 +16,12 @@ export default defineNuxtConfig({
             },
             token: { signInResponseTokenPointer: "/token" },
         },
+    },
+    dayjs: {
+        locales: ["pt-br", "en"],
+        plugins: ["relativeTime", "utc", "timezone"],
+        defaultLocale: "pt-br",
+        defaultTimezone: "America/Sao_Paulo",
     },
     shadcn: {
         prefix: "",

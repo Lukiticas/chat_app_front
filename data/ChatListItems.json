@@ -1,0 +1,94 @@
+[
+  [
+    {
+      "id": "1",
+      "type": "private",
+      "name": "John Doe",
+      "lastMessage": "Hello",
+      "lastMessageTime": "2022-01-01 10:00:00",
+      "isRead": false,
+      "unreadCount": 2
+    },
+    {
+      "id": "2",
+      "type": "group",
+      "name": "Team Chat",
+      "lastMessage": "Meeting tomorrow",
+      "lastMessageTime": "2022-01-02 15:30:00",
+      "isRead": true,
+      "unreadCount": 0
+    },
+    {
+      "id": "3",
+      "type": "private",
+      "name": "Jane Smith",
+      "lastMessage": "How are you?",
+      "lastMessageTime": "2022-01-01 12:30:00",
+      "isRead": false,
+      "unreadCount": 1
+    },
+    {
+      "id": "4",
+      "type": "group",
+      "name": "Project Discussion",
+      "lastMessage": "Any updates?",
+      "lastMessageTime": "2022-01-03 09:45:00",
+      "isRead": true,
+      "unreadCount": 0
+    },
+    {
+      "id": "5",
+      "type": "private",
+      "name": "Alice Johnson",
+      "lastMessage": "See you later!",
+      "lastMessageTime": "2022-01-02 18:00:00",
+      "isRead": true,
+      "unreadCount": 0
+    },
+    {
+      "id": "6",
+      "type": "group",
+      "name": "Design Team",
+      "lastMessage": "New design proposal",
+      "lastMessageTime": "2022-01-03 14:15:00",
+      "isRead": false,
+      "unreadCount": 3
+    },
+    {
+      "id": "7",
+      "type": "private",
+      "name": "Bob Williams",
+      "lastMessage": "Are you free tomorrow?",
+      "lastMessageTime": "2022-01-01 16:45:00",
+      "isRead": true,
+      "unreadCount": 0
+    },
+    {
+      "id": "8",
+      "type": "group",
+      "name": "Marketing Chat",
+      "lastMessage": "New campaign ideas",
+      "lastMessageTime": "2022-01-02 11:30:00",
+      "isRead": false,
+      "unreadCount": 2
+    },
+    {
+      "id": "9",
+      "type": "private",
+      "name": "Eva Davis",
+      "lastMessage": "Let's meet for lunch",
+      "lastMessageTime": "2022-01-03 12:00:00",
+      "isRead": true,
+      "unreadCount": 0
+    },
+    {
+      "id": "10",
+      "type": "group",
+      "name": "Development Team",
+      "lastMessage": "Bug fix in progress",
+      "lastMessageTime": "2022-01-01 14:30:00",
+      "isRead": false,
+      "unreadCount": 1
+    }
+  ]
+]
