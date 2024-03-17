@@ -1,15 +1,22 @@
 <script setup lang="ts">
-const data = ref({
-  username: '',
-  password: ''
-})
+definePageMeta({
+  title: "Login",
+  description: "Login to your account",
+  keywords: "login, account, authentication",
+  layout: "auth",
+  auth: {
+    unauthenticatedOnly: true,
+    navigateAuthenticatedTo: "/",
+  },
+});
 
+useHeadSafe({
+  title: "Login",
+});
 </script>
 
 <template>
-
+  <AuthBody />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

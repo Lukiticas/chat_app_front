@@ -9,13 +9,17 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@vueuse/core": "^10.9.0"
+  },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "@sidebase/nuxt-auth": "^0.7.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-vue-next": "^0.358.0",
     "nuxt": "^3.10.3",
+    "nuxt-icon": "^0.6.9",
     "radix-vue": "^1.5.2",
     "shadcn-nuxt": "^0.10.2",
     "tailwind-merge": "^2.2.2",
