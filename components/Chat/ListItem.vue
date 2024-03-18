@@ -1,15 +1,17 @@
 <script lang="ts" setup>
 import { cn } from "~/lib/utils";
 
-const props = defineProps<{
+defineProps<{
   chat: ChatListItem;
   isSelected: boolean;
 }>();
 
-const emit = defineEmits(["select"]);
+const emit = defineEmits<{
+  (e: "select", chat: ChatListItem): void;
+}>();
 
-const handleSelect = () => {
-  emit("select", props.chat.id);
+const handleSelect = (chat: ChatListItem) => {
+  emit("select", chat);
 };
 </script>
 
@@ -22,7 +24,7 @@ const handleSelect = () => {
         isSelected && 'bg-muted'
       )
     "
-    @click="handleSelect"
+    @click="() => handleSelect(chat)"
   >
     <div class="flex w-full flex-col gap-1">
       <div class="flex items-center">

@@ -4,6 +4,7 @@ type MessageContentTypes = "text" | "image" | "audio" | "video" | "file" | "loca
 interface Chat {
     id: string;
     name: string;
+    isGroup: boolean;
 }
 
 interface User {
@@ -30,7 +31,6 @@ interface Message {
 interface ChatBody extends Chat {
     messages: Message[];
     members: ChatMember[];
-    isGroup: boolean;
     color: string;
 }
 

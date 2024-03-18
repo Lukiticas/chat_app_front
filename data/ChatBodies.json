@@ -1,422 +1,340 @@
 [
   {
-    "id": "chat1",
-    "name": "Chat 1",
+    "id": "1",
+    "name": "John Doe",
+    "isGroup": false,
     "messages": [
       {
-        "id": "message1",
-        "chatId": "chat1",
-        "senderId": "user1",
-        "content": "Hello!",
-        "color": "#FF0000",
+        "id": "1",
+        "chatId": "1",
+        "senderId": "1",
+        "content": "Hello",
+        "color": "#000000",
         "contentType": "text",
-        "timestamp": "2022-01-01T10:00:00Z",
+        "timestamp": "2022-01-01 10:00:00",
         "status": "sent"
-      },
-      {
-        "id": "message2",
-        "chatId": "chat1",
-        "senderId": "user2",
-        "content": "Hi there!",
-        "color": "#00FF00",
-        "contentType": "text",
-        "timestamp": "2022-01-01T10:01:00Z",
-        "status": "delivered"
       }
     ],
     "members": [
       {
-        "id": "user1",
-        "name": "User 1",
-        "avatar": "avatar1.jpg",
+        "id": "1",
+        "name": "John Doe",
+        "avatar": "https://example.com/avatar1.jpg",
+        "isOnline": true
+      }
+    ],
+    "color": "#FF0000"
+  },
+  {
+    "id": "2",
+    "name": "Team Chat",
+    "isGroup": true,
+    "messages": [
+      {
+        "id": "2",
+        "chatId": "2",
+        "senderId": "2",
+        "content": "Meeting tomorrow",
+        "color": "#000000",
+        "contentType": "text",
+        "timestamp": "2022-01-02 15:30:00",
+        "status": "sent"
+      }
+    ],
+    "members": [
+      {
+        "id": "2",
+        "name": "Team Chat",
+        "avatar": "https://example.com/avatar2.jpg",
         "isOnline": true
       },
       {
-        "id": "user2",
-        "name": "User 2",
-        "avatar": "avatar2.jpg",
-        "isOnline": false
+        "id": "3",
+        "name": "Lucas Matheus",
+        "avatar": "https://example.com/avatar3.jpg",
+        "isOnline": true
       }
     ],
-    "isGroup": false,
-    "color": "#0000FF"
+    "color": "#00FF00"
   },
   {
-    "id": "chat2",
-    "name": "Chat 2",
+    "id": "3",
+    "name": "Jane Smith",
+    "isGroup": false,
     "messages": [
       {
-        "id": "message3",
-        "chatId": "chat2",
-        "senderId": "user3",
+        "id": "3",
+        "chatId": "3",
+        "senderId": "3",
         "content": "How are you?",
-        "color": "#FF0000",
+        "color": "#000000",
         "contentType": "text",
-        "timestamp": "2022-01-01T11:00:00Z",
-        "status": "read"
-      },
-      {
-        "id": "message4",
-        "chatId": "chat2",
-        "senderId": "user4",
-        "content": "I'm good, thanks!",
-        "color": "#00FF00",
-        "contentType": "text",
-        "timestamp": "2022-01-01T11:01:00Z",
+        "timestamp": "2022-01-01 12:30:00",
         "status": "sent"
       }
     ],
     "members": [
       {
-        "id": "user3",
-        "name": "User 3",
-        "avatar": "avatar3.jpg",
-        "isOnline": true
-      },
-      {
-        "id": "user4",
-        "name": "User 4",
-        "avatar": "avatar4.jpg",
-        "isOnline": true
-      }
-    ],
-    "isGroup": false,
-    "color": "#00FFFF"
-  },
-  {
-    "id": "chat3",
-    "name": "Chat 3",
-    "messages": [
-      {
-        "id": "message5",
-        "chatId": "chat3",
-        "senderId": "user5",
-        "content": "Good morning!",
-        "color": "#FF0000",
-        "contentType": "text",
-        "timestamp": "2022-01-01T12:00:00Z",
-        "status": "delivered"
-      },
-      {
-        "id": "message6",
-        "chatId": "chat3",
-        "senderId": "user6",
-        "content": "Good morning to you too!",
-        "color": "#00FF00",
-        "contentType": "text",
-        "timestamp": "2022-01-01T12:01:00Z",
-        "status": "read"
-      }
-    ],
-    "members": [
-      {
-        "id": "user5",
-        "name": "User 5",
-        "avatar": "avatar5.jpg",
-        "isOnline": false
-      },
-      {
-        "id": "user6",
-        "name": "User 6",
-        "avatar": "avatar6.jpg",
-        "isOnline": true
-      }
-    ],
-    "isGroup": false,
-    "color": "#FF00FF"
-  },
-  {
-    "id": "chat4",
-    "name": "Chat 4",
-    "messages": [
-      {
-        "id": "message7",
-        "chatId": "chat4",
-        "senderId": "user7",
-        "content": "What's up?",
-        "color": "#FF0000",
-        "contentType": "text",
-        "timestamp": "2022-01-01T13:00:00Z",
-        "status": "sent"
-      },
-      {
-        "id": "message8",
-        "chatId": "chat4",
-        "senderId": "user8",
-        "content": "Not much, just chilling.",
-        "color": "#00FF00",
-        "contentType": "text",
-        "timestamp": "2022-01-01T13:01:00Z",
-        "status": "delivered"
-      }
-    ],
-    "members": [
-      {
-        "id": "user7",
-        "name": "User 7",
-        "avatar": "avatar7.jpg",
-        "isOnline": true
-      },
-      {
-        "id": "user8",
-        "name": "User 8",
-        "avatar": "avatar8.jpg",
+        "id": "3",
+        "name": "Jane Smith",
+        "avatar": "https://example.com/avatar3.jpg",
         "isOnline": false
       }
     ],
-    "isGroup": false,
-    "color": "#FFFF00"
-  },
-  {
-    "id": "chat5",
-    "name": "Chat 5",
-    "messages": [
-      {
-        "id": "message9",
-        "chatId": "chat5",
-        "senderId": "user9",
-        "content": "How's the weather?",
-        "color": "#FF0000",
-        "contentType": "text",
-        "timestamp": "2022-01-01T14:00:00Z",
-        "status": "read"
-      },
-      {
-        "id": "message10",
-        "chatId": "chat5",
-        "senderId": "user10",
-        "content": "It's sunny and warm!",
-        "color": "#00FF00",
-        "contentType": "text",
-        "timestamp": "2022-01-01T14:01:00Z",
-        "status": "sent"
-      }
-    ],
-    "members": [
-      {
-        "id": "user9",
-        "name": "User 9",
-        "avatar": "avatar9.jpg",
-        "isOnline": false
-      },
-      {
-        "id": "user10",
-        "name": "User 10",
-        "avatar": "avatar10.jpg",
-        "isOnline": true
-      }
-    ],
-    "isGroup": false,
-    "color": "#00FF00"
-  },
-  {
-    "id": "chat6",
-    "name": "Chat 6",
-    "messages": [
-      {
-        "id": "message11",
-        "chatId": "chat6",
-        "senderId": "user11",
-        "content": "Long time no see!",
-        "color": "#FF0000",
-        "contentType": "text",
-        "timestamp": "2022-01-01T15:00:00Z",
-        "status": "delivered"
-      },
-      {
-        "id": "message12",
-        "chatId": "chat6",
-        "senderId": "user12",
-        "content": "I know, right? How have you been?",
-        "color": "#00FF00",
-        "contentType": "text",
-        "timestamp": "2022-01-01T15:01:00Z",
-        "status": "read"
-      }
-    ],
-    "members": [
-      {
-        "id": "user11",
-        "name": "User 11",
-        "avatar": "avatar11.jpg",
-        "isOnline": true
-      },
-      {
-        "id": "user12",
-        "name": "User 12",
-        "avatar": "avatar12.jpg",
-        "isOnline": true
-      }
-    ],
-    "isGroup": false,
     "color": "#0000FF"
   },
   {
-    "id": "chat7",
-    "name": "Chat 7",
+    "id": "4",
+    "name": "Project Discussion",
+    "isGroup": true,
     "messages": [
       {
-        "id": "message13",
-        "chatId": "chat7",
-        "senderId": "user13",
-        "content": "Do you want to grab lunch?",
-        "color": "#FF0000",
+        "id": "4",
+        "chatId": "4",
+        "senderId": "4",
+        "content": "Any updates?",
+        "color": "#000000",
         "contentType": "text",
-        "timestamp": "2022-01-01T16:00:00Z",
-        "status": "sent"
-      },
-      {
-        "id": "message14",
-        "chatId": "chat7",
-        "senderId": "user14",
-        "content": "Sure, where should we meet?",
-        "color": "#00FF00",
-        "contentType": "text",
-        "timestamp": "2022-01-01T16:01:00Z",
-        "status": "delivered"
-      }
-    ],
-    "members": [
-      {
-        "id": "user13",
-        "name": "User 13",
-        "avatar": "avatar13.jpg",
-        "isOnline": false
-      },
-      {
-        "id": "user14",
-        "name": "User 14",
-        "avatar": "avatar14.jpg",
-        "isOnline": true
-      }
-    ],
-    "isGroup": false,
-    "color": "#00FFFF"
-  },
-  {
-    "id": "chat8",
-    "name": "Chat 8",
-    "messages": [
-      {
-        "id": "message15",
-        "chatId": "chat8",
-        "senderId": "user15",
-        "content": "Happy birthday!",
-        "color": "#FF0000",
-        "contentType": "text",
-        "timestamp": "2022-01-01T17:00:00Z",
-        "status": "read"
-      },
-      {
-        "id": "message16",
-        "chatId": "chat8",
-        "senderId": "user16",
-        "content": "Thank you!",
-        "color": "#00FF00",
-        "contentType": "text",
-        "timestamp": "2022-01-01T17:01:00Z",
+        "timestamp": "2022-01-03 09:45:00",
         "status": "sent"
       }
     ],
     "members": [
       {
-        "id": "user15",
-        "name": "User 15",
-        "avatar": "avatar15.jpg",
-        "isOnline": true
-      },
-      {
-        "id": "user16",
-        "name": "User 16",
-        "avatar": "avatar16.jpg",
-        "isOnline": false
-      }
-    ],
-    "isGroup": false,
-    "color": "#FF00FF"
-  },
-  {
-    "id": "chat9",
-    "name": "Chat 9",
-    "messages": [
-      {
-        "id": "message17",
-        "chatId": "chat9",
-        "senderId": "user17",
-        "content": "Are you free tomorrow?",
-        "color": "#FF0000",
-        "contentType": "text",
-        "timestamp": "2022-01-01T18:00:00Z",
-        "status": "delivered"
-      },
-      {
-        "id": "message18",
-        "chatId": "chat9",
-        "senderId": "user18",
-        "content": "Yes, I am. What's up?",
-        "color": "#00FF00",
-        "contentType": "text",
-        "timestamp": "2022-01-01T18:01:00Z",
-        "status": "read"
-      }
-    ],
-    "members": [
-      {
-        "id": "user17",
-        "name": "User 17",
-        "avatar": "avatar17.jpg",
+        "id": "4",
+        "name": "Project Discussion",
+        "avatar": "https://example.com/avatar4.jpg",
         "isOnline": false
       },
       {
-        "id": "user18",
-        "name": "User 18",
-        "avatar": "avatar18.jpg",
+        "id": "5",
+        "name": "Member 1",
+        "avatar": "https://example.com/avatar5.jpg",
         "isOnline": true
+      },
+      {
+        "id": "6",
+        "name": "Member 2",
+        "avatar": "https://example.com/avatar6.jpg",
+        "isOnline": false
       }
     ],
-    "isGroup": false,
     "color": "#FFFF00"
   },
   {
-    "id": "chat10",
-    "name": "Chat 10",
+    "id": "5",
+    "name": "Alice Johnson",
+    "isGroup": false,
     "messages": [
       {
-        "id": "message19",
-        "chatId": "chat10",
-        "senderId": "user19",
-        "content": "Let's go hiking this weekend!",
-        "color": "#FF0000",
+        "id": "5",
+        "chatId": "5",
+        "senderId": "5",
+        "content": "See you later!",
+        "color": "#000000",
         "contentType": "text",
-        "timestamp": "2022-01-01T19:00:00Z",
+        "timestamp": "2022-01-02 18:00:00",
         "status": "sent"
-      },
-      {
-        "id": "message20",
-        "chatId": "chat10",
-        "senderId": "user20",
-        "content": "Sounds great! I'm in.",
-        "color": "#00FF00",
-        "contentType": "text",
-        "timestamp": "2022-01-01T19:01:00Z",
-        "status": "delivered"
       }
     ],
     "members": [
       {
-        "id": "user19",
-        "name": "User 19",
-        "avatar": "avatar19.jpg",
+        "id": "5",
+        "name": "Alice Johnson",
+        "avatar": "https://example.com/avatar5.jpg",
         "isOnline": true
       },
       {
-        "id": "user20",
-        "name": "User 20",
-        "avatar": "avatar20.jpg",
-        "isOnline": true
+        "id": "6",
+        "name": "Lucas Matheus",
+        "avatar": "https://example.com/avatar6.jpg",
+        "isOnline": false
       }
     ],
+    "color": "#FF00FF"
+  },
+  {
+    "id": "6",
+    "name": "Design Team",
+    "isGroup": true,
+    "messages": [
+      {
+        "id": "6",
+        "chatId": "6",
+        "senderId": "6",
+        "content": "New design proposal",
+        "color": "#000000",
+        "contentType": "text",
+        "timestamp": "2022-01-03 14:15:00",
+        "status": "sent"
+      }
+    ],
+    "members": [
+      {
+        "id": "6",
+        "name": "Design Team",
+        "avatar": "https://example.com/avatar6.jpg",
+        "isOnline": true
+      },
+      {
+        "id": "7",
+        "name": "Member 1",
+        "avatar": "https://example.com/avatar7.jpg",
+        "isOnline": false
+      },
+      {
+        "id": "8",
+        "name": "Member 2",
+        "avatar": "https://example.com/avatar8.jpg",
+        "isOnline": true
+      },
+      {
+        "id": "9",
+        "name": "Member 3",
+        "avatar": "https://example.com/avatar9.jpg",
+        "isOnline": true
+      },
+      {
+        "id": "6",
+        "name": "Lucas Matheus",
+        "avatar": "https://example.com/avatar6.jpg",
+        "isOnline": false
+      }
+    ],
+    "color": "#00FFFF"
+  },
+  {
+    "id": "7",
+    "name": "Bob Williams",
     "isGroup": false,
-    "color": "#00FF00"
+    "messages": [
+      {
+        "id": "7",
+        "chatId": "7",
+        "senderId": "7",
+        "content": "Are you free tomorrow?",
+        "color": "#000000",
+        "contentType": "text",
+        "timestamp": "2022-01-01 16:45:00",
+        "status": "sent"
+      }
+    ],
+    "members": [
+      {
+        "id": "7",
+        "name": "Bob Williams",
+        "avatar": "https://example.com/avatar7.jpg",
+        "isOnline": false
+      }
+    ],
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "8",
+    "name": "Marketing Chat",
+    "isGroup": true,
+    "messages": [
+      {
+        "id": "8",
+        "chatId": "8",
+        "senderId": "8",
+        "content": "New campaign ideas",
+        "color": "#000000",
+        "contentType": "text",
+        "timestamp": "2022-01-02 11:30:00",
+        "status": "sent"
+      }
+    ],
+    "members": [
+      {
+        "id": "6",
+        "name": "Lucas Matheus",
+        "avatar": "https://example.com/avatar6.jpg",
+        "isOnline": false
+      },
+      {
+        "id": "9",
+        "name": "Member 1",
+        "avatar": "https://example.com/avatar9.jpg",
+        "isOnline": true
+      },
+      {
+        "id": "10",
+        "name": "Member 2",
+        "avatar": "https://example.com/avatar10.jpg",
+        "isOnline": false
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": "9",
+    "name": "Eva Davis",
+    "isGroup": false,
+    "messages": [
+      {
+        "id": "9",
+        "chatId": "9",
+        "senderId": "9",
+        "content": "Let's meet for lunch",
+        "color": "#000000",
+        "contentType": "text",
+        "timestamp": "2022-01-03 12:00:00",
+        "status": "sent"
+      }
+    ],
+    "members": [
+      {
+        "id": "9",
+        "name": "Eva Davis",
+        "avatar": "https://example.com/avatar9.jpg",
+        "isOnline": true
+      },
+      {
+        "id": "6",
+        "name": "Lucas Matheus",
+        "avatar": "https://example.com/avatar6.jpg",
+        "isOnline": false
+      }
+    ],
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "10",
+    "name": "Development Team",
+    "isGroup": true,
+    "messages": [
+      {
+        "id": "10",
+        "chatId": "10",
+        "senderId": "10",
+        "content": "Bug fix in progress",
+        "color": "#000000",
+        "contentType": "text",
+        "timestamp": "2022-01-01 14:30:00",
+        "status": "sent"
+      }
+    ],
+    "members": [
+      {
+        "id": "10",
+        "name": "Development Team",
+        "avatar": "https://example.com/avatar10.jpg",
+        "isOnline": true
+      },
+      {
+        "id": "11",
+        "name": "Member 1",
+        "avatar": "https://example.com/avatar11.jpg",
+        "isOnline": false
+      },
+      {
+        "id": "6",
+        "name": "Lucas Matheus",
+        "avatar": "https://example.com/avatar6.jpg",
+        "isOnline": false
+      }
+    ],
+    "color": "#FF0000"
   }
 ]

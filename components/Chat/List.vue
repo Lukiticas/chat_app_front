@@ -1,6 +1,14 @@
 <script lang="ts" setup>
 import chatsMockup from "../../data/ChatListItems.json";
 
+defineProps<{
+  selectedChat: ChatListItem | null;
+}>();
+
+const emit = defineEmits<{
+  (e: "update:selected-chat", chat: ChatListItem): void;
+}>();
+
 const dayjs = useDayjs();
 const orders = ref<OrderOption[]>([
   { name: "Recentes", value: "most-recent" },
@@ -9,14 +17,12 @@ const orders = ref<OrderOption[]>([
   { name: "A-Z", value: "a-z" },
 ]);
 
-const selectedChat = ref<ChatListItem | null>(null);
 const chats = ref<ChatListItem[]>([]);
 const search = ref("");
 const selectedOrder = ref("most-recent");
 
 const getChatsPreview = async () => {
-  console.log(chatsMockup);
-  chats.value = chatsMockup[0] as any;
+  chats.value = chatsMockup as any;
 };
 
 const filteredChats = computed(() => {
@@ -95,7 +101,7 @@ onMounted(() => {
             :key="chat.id"
             :chat="chat"
             :isSelected="selectedChat?.id === chat.id"
-            @select="() => (selectedChat = chat)"
+            @select="(chat) => emit('update:selected-chat', chat)"
           />
         </TransitionGroup>
       </div>
