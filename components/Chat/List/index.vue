@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import chatsMockup from "../../data/ChatListItems.json";
+import chatsMockup from "../../../data/ChatListItems.json";
 
 defineProps<{
   selectedChat: ChatListItem | null;

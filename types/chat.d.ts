@@ -32,6 +32,7 @@ interface ChatBody extends Chat {
     messages: Message[];
     members: ChatMember[];
     color: string;
+    avatar: ?string;
 }
 
 interface ChatListItem extends Chat {
@@ -39,6 +40,14 @@ interface ChatListItem extends Chat {
     lastMessageTime: string;
     isRead: boolean;
     unreadCount: number;
+}
+
+type ChatMessageActivityStatus = "typing" | "recording" | "idle" | "online" | "offline";
+
+interface ChatMessageActivity {
+    userId: string;
+    user: ChatMember;
+    status: ChatMessageActivityStatus;
 }
 
 interface BaseOption {

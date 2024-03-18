@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import ChatBodies from "../../data/ChatBodies.json";
+import ChatBodies from "../../../data/ChatBodies.json";
 
 const props = defineProps<{
   selectedChat: ChatListItem;
@@ -34,7 +34,7 @@ watch(
 <template>
   <section class="h-full w-full">
     <div v-if="currentChat && !isLoading" class="flex flex-col h-full">
-      <ChatBodyHeader class="flex-0" />
+      <ChatBodyHeader :chat="currentChat" class="flex-0" />
       <ChatBodyContent class="flex-1" />
       <ChatBodyFooter class="flex-0" />
     </div>
