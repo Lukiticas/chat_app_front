@@ -32,11 +32,11 @@ watch(
 </script>
 
 <template>
-  <section class="h-full w-ful">
-    <div v-if="currentChat && !isLoading">
-      <ChatBodyHeader />
-      <ChatBodyContent />
-      <ChatBodyFooter />
+  <section class="h-full w-full">
+    <div v-if="currentChat && !isLoading" class="flex flex-col h-full">
+      <ChatBodyHeader class="flex-0" />
+      <ChatBodyContent class="flex-1" />
+      <ChatBodyFooter class="flex-0" />
     </div>
     <div class="h-full w-full grid items-center bg-slate-200" v-else-if="!currentChat && !isLoading">
       <div class="flex flex-col items-center justify-center">

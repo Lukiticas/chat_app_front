@@ -61,15 +61,15 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="h-full p-4">
-    <div class="flex items-center justify-between mb-4">
+  <section class="h-full">
+    <div class="px-4 flex items-center justify-between my-4">
       <h2 class="text-lg font-semibold">Chats</h2>
       <Button size="sm">
         <Icon class="mr-2" name="lucide:square-plus" />
         Novo chat
       </Button>
     </div>
-    <div class="mb-4">
+    <div class="px-4 mb-4">
       <div class="flex flex-row gap-3 relative w-full max-w-sm items-center">
         <Input v-model="search" id="search" type="text" placeholder="Buscar chat..." class="pl-10" />
         <span class="absolute start-0 inset-y-0 flex items-center justify-center px-2">
@@ -94,7 +94,7 @@ onMounted(() => {
       </div>
     </div>
     <ScrollArea class="h-full flex">
-      <div class="flex-1 flex flex-col gap-2">
+      <div class="flex-1 flex flex-col">
         <TransitionGroup name="list" appear>
           <ChatListItem
             v-for="chat of filteredChats"

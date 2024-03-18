@@ -20,7 +20,7 @@ const handleSelect = (chat: ChatListItem) => {
     :key="chat.id"
     :class="
       cn(
-        'flex flex-col chats-start gap-2 rounded-lg border p-3 text-left text-sm transition-all hover:bg-accent',
+        'flex flex-col chats-start gap-2 border p-3 text-left text-sm transition-all hover:bg-accent',
         isSelected && 'bg-muted'
       )
     "
