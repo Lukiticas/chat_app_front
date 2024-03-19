@@ -35,7 +35,7 @@ watch(
   <section class="h-full w-full">
     <div v-if="currentChat && !isLoading" class="flex flex-col h-full">
       <ChatBodyHeader :chat="currentChat" class="flex-0" />
-      <ChatBodyContent class="flex-1" />
+      <ChatBodyContent :chat="currentChat" class="flex-1" />
       <ChatBodyFooter class="flex-0" />
     </div>
     <div class="h-full w-full grid items-center bg-slate-200" v-else-if="!currentChat && !isLoading">

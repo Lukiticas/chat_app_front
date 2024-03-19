@@ -1,6 +1,6 @@
 <template>
   <header :class="cn('w-full h-[4rem] border-y flex flex-row align-center px-3 py-1 gap-3', $attrs.class ?? '')">
-    <BaseAvatarSection :avatar="chat.avatar" :name="chat.name">
+    <BaseAvatarSection :avatar="chat.avatar || ''" :name="chat.name">
       <ChatBodyHeaderActivity :activity="chatMessageStatus" />
     </BaseAvatarSection>
     <Separator orientation="vertical" />

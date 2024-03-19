@@ -9,17 +9,153 @@
         "chatId": "1",
         "senderId": "1",
         "content": "Hello",
-        "color": "#000000",
+        "color": "#2563eb",
         "contentType": "text",
         "timestamp": "2022-01-01 10:00:00",
+        "status": "sent"
+      },
+      {
+        "id": "2",
+        "chatId": "1",
+        "senderId": "2",
+        "content": "Hi",
+        "color": "#000000",
+        "contentType": "text",
+        "timestamp": "2022-01-01 10:05:00",
+        "status": "sent"
+      },
+      {
+        "id": "3",
+        "chatId": "1",
+        "senderId": "1",
+        "content": "How are you?",
+        "color": "#2563eb",
+        "contentType": "text",
+        "timestamp": "2022-01-01 10:10:00",
+        "status": "sent"
+      },
+      {
+        "id": "4",
+        "chatId": "1",
+        "senderId": "2",
+        "content": "I'm good, thanks",
+        "color": "#000000",
+        "contentType": "text",
+        "timestamp": "2022-01-01 10:15:00",
+        "status": "sent"
+      },
+      {
+        "id": "5",
+        "chatId": "1",
+        "senderId": "1",
+        "content": "What are you doing?",
+        "color": "#2563eb",
+        "contentType": "text",
+        "timestamp": "2022-01-01 10:20:00",
+        "status": "sent"
+      },
+      {
+        "id": "6",
+        "chatId": "1",
+        "senderId": "2",
+        "content": "I'm working",
+        "color": "#000000",
+        "contentType": "text",
+        "timestamp": "2022-01-01 10:25:00",
+        "status": "sent"
+      },
+      {
+        "id": "7",
+        "chatId": "1",
+        "senderId": "1",
+        "content": "What are you working on?",
+        "color": "#2563eb",
+        "contentType": "text",
+        "timestamp": "2022-01-01 10:30:00",
+        "status": "sent"
+      },
+      {
+        "id": "8",
+        "chatId": "1",
+        "senderId": "2",
+        "content": "I'm working on a new project",
+        "color": "#000000",
+        "contentType": "text",
+        "timestamp": "2022-01-01 10:35:00",
+        "status": "sent"
+      },
+      {
+        "id": "9",
+        "chatId": "1",
+        "senderId": "1",
+        "content": "That's great!",
+        "color": "#2563eb",
+        "contentType": "text",
+        "timestamp": "2022-01-01 10:40:00",
+        "status": "sent"
+      },
+      {
+        "id": "10",
+        "chatId": "1",
+        "senderId": "2",
+        "content": "Yes, I'm excited about it",
+        "color": "#000000",
+        "contentType": "text",
+        "timestamp": "2022-01-01 10:45:00",
+        "status": "sent"
+      },
+      {
+        "id": "11",
+        "chatId": "1",
+        "senderId": "1",
+        "content": "When will it be ready?",
+        "color": "#2563eb",
+        "contentType": "text",
+        "timestamp": "2022-01-01 10:50:00",
+        "status": "sent"
+      },
+      {
+        "id": "12",
+        "chatId": "1",
+        "senderId": "2",
+        "content": "In a few weeks",
+        "color": "#000000",
+        "contentType": "text",
+        "timestamp": "2022-01-01 10:55:00",
+        "status": "sent"
+      },
+      {
+        "id": "13",
+        "chatId": "1",
+        "senderId": "1",
+        "content": "I can't wait to see it",
+        "color": "#2563eb",
+        "contentType": "text",
+        "timestamp": "2022-01-01 11:00:00",
+        "status": "sent"
+      },
+      {
+        "id": "14",
+        "chatId": "1",
+        "senderId": "2",
+        "content": "I'll show it to you when it's ready",
+        "color": "#000000",
+        "contentType": "text",
+        "timestamp": "2022-01-01 11:05:00",
         "status": "sent"
       }
     ],
     "members": [
       {
         "id": "1",
-        "name": "John Doe",
+        "name": "Lucas Matheus",
         "avatar": "https://example.com/avatar1.jpg",
+        "isOnline": true
+      },
+      {
+        "id": "2",
+        "name": "John Doe",
+        "avatar": "https://example.com/avatar2.jpg",
         "isOnline": true
       }
     ],

@@ -15,6 +15,7 @@ export default defineNuxtConfig({
                 getSession: { path: "/user", method: "get" },
             },
             token: { signInResponseTokenPointer: "/token" },
+            sessionDataType: { id: "string", name: "string", email: "string" },
         },
     },
     dayjs: {

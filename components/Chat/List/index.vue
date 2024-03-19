@@ -95,7 +95,7 @@ onMounted(() => {
     </div>
     <ScrollArea class="h-full flex">
       <div class="flex-1 flex flex-col">
-        <TransitionGroup name="list" appear>
+        <AnimationsListAppear>
           <ChatListItem
             v-for="chat of filteredChats"
             :key="chat.id"
@@ -103,26 +103,10 @@ onMounted(() => {
             :isSelected="selectedChat?.id === chat.id"
             @select="(chat) => emit('update:selected-chat', chat)"
           />
-        </TransitionGroup>
+        </AnimationsListAppear>
       </div>
     </ScrollArea>
   </section>
 </template>
 
-<style scoped>
-.list-move,
-.list-enter-active,
-.list-leave-active {
-  transition: all 0.5s ease;
-}
-
-.list-enter-from,
-.list-leave-to {
-  opacity: 0;
-  transform: translateY(15px);
-}
-
-.list-leave-active {
-  position: absolute;
-}
-</style>
+<style scoped></style>
